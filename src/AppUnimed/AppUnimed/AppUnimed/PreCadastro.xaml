@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppUnimed.PreCadastro">
+    <ContentPage.Content >
+        <StackLayout BackgroundColor="GreenYellow">
+
+
+            <StackLayout Orientation="Horizontal" BackgroundColor="Green"  >
+                <Label Text="Pré-Cadastro" FontSize="30"  TextColor="White" VerticalOptions="Center" Margin="20,0,0,0"/>
+                <Image Source="icon.png"  Scale="0.5"  HorizontalOptions="EndAndExpand" />
+            </StackLayout>
+
+            <ScrollView BackgroundColor="Silver" Padding="5,10">
+                <StackLayout>
+                  
+                    <Entry Placeholder="Nome"  />
+                    <Entry Placeholder="CPF" />
+                    <Entry Placeholder="Celular" />
+                    <Entry Placeholder="Celular" />
+                    <Entry Placeholder="Celular" />
+                    <Entry Placeholder="Celular" />
+                    <Entry Placeholder="Celular" />
+                    <Label Text="loren ipsun dolor sit ammet..."/>
+                    <Button Text="OK" />
+                </StackLayout>
+
+            </ScrollView>
+            <StackLayout Orientation="Horizontal" BackgroundColor="Gray" Padding="5,20">
+                <Image Source="icon.png"  Scale="0.2"  HorizontalOptions="StartAndExpand" />
+                
+            <Label FontSize="Small">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Cudidar de você " ForegroundColor="DarkGray"  />
+                            
+                            <Span Text="#esseéoplano"  ForegroundColor="Black" FontAttributes="Bold" />
+                        </FormattedString>
+
+
+                    </Label.FormattedText>
+                 </Label>
+                
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
