@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.1
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppUnimed.Android", "AppUnimed\AppUnimed.Android\AppUnimed.Android.csproj", "{3108E048-B732-4EBA-86BF-9A6544298928}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppUnimed.iOS", "AppUnimed\AppUnimed.iOS\AppUnimed.iOS.csproj", "{5B78DCA3-C93A-4253-8521-AFD2FE5D4FD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppUnimed", "AppUnimed\AppUnimed\AppUnimed.csproj", "{3AC70D3A-7A02-4820-ACD4-66ECDAF4FCCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppUnimed", "AppUnimed\AppUnimed\AppUnimed.csproj", "{3AC70D3A-7A02-4820-ACD4-66ECDAF4FCCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
