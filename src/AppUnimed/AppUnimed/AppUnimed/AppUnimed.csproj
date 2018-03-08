@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.6</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,7 +18,11 @@
   </ItemGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <EmbeddedResource Update="Login.xaml">
+=======
+    <EmbeddedResource Update="PreCadastro.xaml">
+>>>>>>> 71433d075ad029a6cd462344b0c8827bce236ba6
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
