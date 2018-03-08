@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppUnimed.Menu">
+    <ContentPage.Content>
+
+
+        <ScrollView Padding="10">
+
+            <Grid x:Name="Grid_Menu" ColumnSpacing="10">
+
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                    <RowDefinition Height="200"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="nova_compra" Text="botao" Grid.Row="0" Grid.Column="0" HeightRequest="100" BackgroundColor="Green" TextColor="White" />
+                <Button x:Name="acompanhamento" Text="Acompanhamento" Grid.Row="0" Grid.Column="1" BackgroundColor="Green" TextColor="White" />
+
+                <Button x:Name="trocar_senha" Text="Trocar Senha" Grid.Row="1" Grid.Column="0" BackgroundColor="Green" TextColor="White" />
+                <Button x:Name="contato" Text="Contato" Grid.Row="1" Grid.Column="1" BackgroundColor="Green" TextColor="White"/>
+
+                <Button x:Name="guia_medico" Text="Guia Médico" Grid.Row="2" Grid.Column="0" BackgroundColor="Green" TextColor="White" />
+                <Button x:Name="segunda_via" Text="2º via" Grid.Row="2" Grid.Column="1" BackgroundColor="Green" TextColor="White"/>
+
+                <Button x:Name="menu_7" Text="Menu 7" Grid.Row="3" Grid.Column="0" BackgroundColor="Green" TextColor="White"/>
+                <Button x:Name="menu_8" Text="Menu 8" Grid.Row="3" Grid.Column="1" BackgroundColor="Green" TextColor="White"/>
+
+                <!--<BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="Silver" />
+            <BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="Blue" />
+            <BoxView Grid.Row="1" Grid.Column="0" BackgroundColor="Black" />
+            <BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="Gray" />-->
+
+            </Grid>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>
