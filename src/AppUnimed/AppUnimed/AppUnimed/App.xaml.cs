@@ -13,7 +13,7 @@ namespace AppUnimed
 		{
 			InitializeComponent();
 
-			MainPage = new AppUnimed.MainPage();
+			MainPage = new AppUnimed.Login();
 		}
 
 		protected override void OnStart ()
